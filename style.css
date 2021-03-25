@@ -1,0 +1,106 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Brush Script MT', cursive, helvetica, arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-image: url(https://cdn.glitch.com/48530025-07d0-4c02-a4ee-d91d4dd0f371%2Fe1ba9429-0ec8-428f-aeea-3dae54721a5f-shutterstock-1537251647.jpg?v=1616646809929);
+  background-color: slategrey;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px darkslateblue;
+}
+
+#text {
+  width: 45%;
+  margin-left: 27.5%;
+  padding: 5px;
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 6px;
+}
+
+h1 {
+  margin-top: 1.8em;
+  font-family: 'Brush Script MT', cursive, verdana, arial, sans-serif; 
+  color: white;
+  text-shadow: 2px 2px darkslateblue;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-family: 'Brush Script MT', cursive, arial, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  border: 1.8px solid white;
+}
+
+#startBtn:hover {
+  background-image: linear-gradient(30deg, #2E8B57, #98FB98);
+  color: white;
+}
+
+#stopBtn:hover {
+  background-image: linear-gradient(30deg, #B22222, red);
+  color: white;
+}
+
+#gameButtonArea > button {
+  width:150px;
+  height:180px;
+  margin:2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#controlsArea > button:hover {
+  background-image: linear-gradient(30deg, royalblue, powderblue);
+  color: white;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+    background: green;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+    background: blue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+    background: red;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+    background: yellow;
+}
+
+#button5 {
+  background: thistle;
+}
+
+#button5:active, #button5.lit {
+    background: orchid;
+}
