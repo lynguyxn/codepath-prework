@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](https://s3.amazonaws.com/img0.recordit.co/fqlF9BTDBL.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1616658701&Signature=nzucwMfsaWlq2TfapSGtvjwQZK0%3D)
+[![website-pic](https://user-images.githubusercontent.com/64985802/112431279-87079380-8cfc-11eb-8251-b1101bed2194.png)](https://s3.amazonaws.com/img0.recordit.co/fqlF9BTDBL.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1616658701&Signature=nzucwMfsaWlq2TfapSGtvjwQZK0%3D)
 
 ## Reflection Questions
 
