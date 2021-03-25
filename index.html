@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p id="text">
+      Repeat the pattern back to win the game!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" onclick="stopGame()" class="hidden">Stop</button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <div id="controlsArea">
+      Speed Controls
+      <button id="resetBtn" onclick="resetSpeed()">Reset</button>
+      <button id="upBtn" onclick="increaseSpeed()">&#62&#62</button>
+      <button id="downBtn" onclick="decreaseSpeed()">&#60&#60</button>
+
+      <p id="speed-4" class="hidden">Current speed: 0.2x</p>
+      <p id="speed-3" class="hidden">Current speed: 0.4x</p>
+      <p id="speed-2" class="hidden">Current speed: 0.6x</p>
+      <p id="speed-1" class="hidden">Current speed: 0.8x</p>
+      <p id="speed0">Current speed: 1.0x</p>
+      <p id="speed1" class="hidden">Current speed: 1.2x</p>
+      <p id="speed2" class="hidden">Current speed: 1.4x</p>
+      <p id="speed3" class="hidden">Current speed: 1.6x</p>
+      <p id="speed4" class="hidden">Current speed: 1.8x</p>
+    </div>
+    
+  </body>
+</html>
